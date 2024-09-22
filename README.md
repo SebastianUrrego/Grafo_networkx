@@ -25,4 +25,15 @@ Para instalar las dependencias, puedes ejecutar el siguiente comando:
 ```bash
 pip install networkx matplotlib
 ```
+## Ejemplos de gramaticas
+Aquí hay ejemplos que puedes usar para probar el programa. Guárdala en un archivo llamado gramatica.txt:
 
+```plaintext
+E -> T + E | T
+T -> int * T | int
+---------------------
+E -> E + E | E * E | ( E ) | int
+---------------------------------
+E -> E + T | E - T | T
+T -> T * F | T / F | F
+F -> ( E ) | n
