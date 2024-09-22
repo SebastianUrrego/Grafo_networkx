@@ -3,6 +3,15 @@
 Este proyecto implementa un generador de árboles de derivaciones a partir de una gramática formal proporcionada en un archivo de texto. Utiliza **Python** junto con la 
 biblioteca **NetworkX** para crear y visualizar gráficos de derivación. También incluye ejemplos de gramáticas ambiguas y no ambiguas para probar el comportamiento de las derivaciones.
 
+## Descripcion del trabajo
+Este trabajo implementa un generador de árboles de derivación a partir de reglas gramaticales leídas desde un archivo de texto. Utiliza la biblioteca NetworkX para generar y visualizar los grafos que representan las derivaciones.
+
+Objetivos:
+1)Leer y procesar un archivo de gramática.
+2)Generar un árbol de derivaciones basado en las reglas gramaticales.
+3)Visualizar el árbol generado usando matplotlib.
+4)Probar diferentes gramáticas, incluyendo gramáticas básicas y complejas.
+
 ## Características
 
 - **Lectura de gramáticas** desde un archivo `.txt`.
