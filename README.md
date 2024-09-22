@@ -22,7 +22,6 @@ Objetivos:
 ## Requisitos
 
 - Python 3.x
-- Entorno virtual
 - Librerías necesarias:
   - `networkx`
   - `matplotlib`
@@ -68,9 +67,3 @@ cd Grafo_networkx
  ```bash
 python3 grafo.py
 ```
-4) Si no le sirvieron los pasos anteriores puede descargar la carpeta comprimida donde estan los archivos y el entorno virtual, para activarlo ponga estos comandos:
- ```bash
-cd /Descargas/su_usuario/ejercicio/mi_entorno
-source bin/activate
-```
-el ultimo comando es para activar el entorno virtual.
